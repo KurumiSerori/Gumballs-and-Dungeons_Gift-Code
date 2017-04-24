@@ -49,3 +49,5 @@ Temporary Items
 # Customize
 /build/*
 /dist/*
+code.txt
+test.py

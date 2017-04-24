@@ -10,6 +10,11 @@ response = requests.post("http://wechat.leiting.com/weixin/gumballs/201610/gift/
 
 data = json.loads(response.content)
 code = data['message']['code']
+
+fileHandle = open('code.txt', 'w')
+fileHandle.write(code)
+fileHandle.close()
+
 #easygui.msgbox(code, "每日密令")
 class App(wx.App):
     def OnInit(self):
