@@ -1,7 +1,7 @@
 from distutils.core import setup
 import py2exe
 
-setup( windows = ['Gift Code.py'],
+setup( windows = ['GiftCode.py'],
        zipfile = None,
        options = {'py2exe':{
            "bundle_files": 1,
