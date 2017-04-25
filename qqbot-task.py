@@ -1,6 +1,5 @@
 from qqbot import QQBotSched as qqbotsched, RunBot
 import GiftCode
-import os
 
 @qqbotsched(hour='12', minute='05')
 def mytask(bot):
