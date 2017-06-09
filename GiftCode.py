@@ -9,7 +9,7 @@ def GetCode():
 ##    print(response.content)
     
     data = json.loads(response.content)
-    code = data['message']['code']
+    code = data['message']
     
 ##    fileHandle = open('code.txt', 'w')
 ##    fileHandle.write(code)
